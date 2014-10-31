@@ -1,0 +1,43 @@
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$font-family-sans-serif:'Lato','Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:45px;
+$body-bg: #ecf0f1;
+$navbar-inverse-bg: #27ae60;
+$navbar-inverse-link-color: white;
+$brand-primary: #f39c12;
+$jumbotron-bg: #bdc3c7;
+
+
+
+@import 'bootstrap';
+
+.center{
+	text-align:center;
+
+}
+
+.navbar-brand{
+	
+	font-weight:bold;
+}
+
+.checkbox label {
+	padding-left: 0px;
+	margin-bottom: 0;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.checkbox
+{
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 0px;
+
+}
